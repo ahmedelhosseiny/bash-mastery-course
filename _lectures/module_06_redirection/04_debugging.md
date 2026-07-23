@@ -185,7 +185,15 @@ For very complex scripts, a dedicated Bash debugger can be invaluable. Tools lik
 *   **Variable inspection**: View and modify variable values during execution.
 *   **Call stack**: See the sequence of function calls.
 
-Installing and using `bashdb` typically involves installing a package (e.g., `sudo apt-get install bashdb` on Debian/Ubuntu) and then invoking your script with `bashdb your_script.sh`.
+Installing and using `bashdb` typically involves installing the package from your distribution's repository:
+*   **Debian/Ubuntu (APT)**: `sudo apt-get install bashdb`
+*   **Fedora/RHEL/CentOS (DNF/YUM)**: `sudo dnf install bashdb` (or compile from source if unavailable in repository)
+*   **Arch Linux (Pacman)**: `sudo pacman -S bashdb`
+
+Once installed, invoke your script using:
+```bash
+bashdb your_script.sh
+```
 
 ## Best Practices for Debugging
 

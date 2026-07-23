@@ -75,10 +75,16 @@ chmod +x starter_script.sh
 ## 🛠️ Prerequisites & Linting
 
 We enforce clean, POSIX-compliant scripting conventions.
-To check your code for formatting and safety bugs, we recommend installing `shellcheck`:
+To check your code for formatting and safety bugs, we recommend installing `shellcheck` depending on your Linux distribution:
 ```bash
-# On Debian/Ubuntu Linux:
+# On Debian/Ubuntu (APT):
 sudo apt install shellcheck
+
+# On Fedora/RHEL/CentOS (DNF/YUM):
+sudo dnf install shellcheck
+
+# On Arch Linux (Pacman):
+sudo pacman -S shellcheck
 
 # Lint your script:
 shellcheck solution.sh

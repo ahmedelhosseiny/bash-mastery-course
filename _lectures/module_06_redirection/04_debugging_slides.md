@@ -57,7 +57,10 @@
     *   Step-by-step execution.
     *   Variable inspection.
     *   Call stack.
-*   Requires installation (e.g., `sudo apt-get install bashdb`).
+*   Installation varies by distro:
+    *   `apt install bashdb` (Debian/Ubuntu)
+    *   `dnf install bashdb` (Fedora/RHEL)
+    *   `pacman -S bashdb` (Arch)
 
 ## Slide 11: Best Practices for Debugging
 *   **Start Simple**: Use `echo`.
