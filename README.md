@@ -99,4 +99,4 @@ You can read the original technical reference document on your system at:
 *   [Full Bash Manual (bash.txt)](file:///home/ahmedelhosseiny/Documents/Reports/bash.txt)
 
 ---
-*Created by Ahmed Elhosseiny - 2026*
+*Created by Ahmed A. El Hosseiny - 2026*
