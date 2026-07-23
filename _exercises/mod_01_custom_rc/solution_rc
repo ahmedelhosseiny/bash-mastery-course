@@ -1,0 +1,4 @@
+# Custom bashrc configuration
+alias la='ls -la'
+alias rm='rm -i'
+export PS1='[BASH-MASTERY] \u@\h:\w$ '

@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=LowQual,Description="Low quality call">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	1001	rs123	A	G	100	PASS	DP=100;AF=0.5
+chr1	1002	rs456	T	C	10	LowQual	DP=10;AF=0.01
+chr2	5001	rs789	C	T	99	PASS	DP=50;AF=0.25
+chrX	88212	rs111	G	A	95	PASS	DP=80;AF=0.1

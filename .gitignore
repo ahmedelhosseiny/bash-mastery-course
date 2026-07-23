@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.err
+/activity.log
+/error.log
+
+# Temporary test directories
+/workspace/
+/temp_dir/
+
+# Executables or backups
+*.tmp
+*.bak
