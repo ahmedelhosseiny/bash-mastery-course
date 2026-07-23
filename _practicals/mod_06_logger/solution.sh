@@ -6,8 +6,8 @@ LOG_FILE="activity.log"
 ERR_FILE="error.log"
 
 # Clear files
-> "$LOG_FILE"
-> "$ERR_FILE"
+: > "$LOG_FILE"
+: > "$ERR_FILE"
 
 # Custom redirection using exec and tee
 exec 3>&1 4>&2
