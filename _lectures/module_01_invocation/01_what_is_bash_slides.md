@@ -4,7 +4,6 @@
 *   **Title**: What is Bash?
 *   **Subtitle**: Understanding the GNU Bourne-Again SHell
 *   **Course**: Bash Scripting Mastery Course
-*   **Instructor**: Manus AI
 
 ## Slide 2: Introduction to Bash
 *   **What is Bash?**
