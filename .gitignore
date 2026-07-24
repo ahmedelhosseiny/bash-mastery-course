@@ -15,3 +15,12 @@ Thumbs.db
 # Executables or backups
 *.tmp
 *.bak
+
+# PowerPoint slides conversion
+*.pptx
+/convert_slides_to_pptx.py
+/POWERPOINT_GENERATION_SUMMARY.md
+/POWERPOINT_INDEX.md
+/PPTX_CONVERSION_COMPLETE.txt
+.Rhistory
+
